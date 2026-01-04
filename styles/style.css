@@ -40,6 +40,18 @@ main {
     padding: 18px 35px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FD6E0A;
+    padding: 18px 35px;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .header {
@@ -101,16 +113,6 @@ nav li a {
     font-size: 25px;
     margin-top: 30px;
     margin-bottom: 30px;
-}
-
-.btn-secondary {
-    background-color: white;
-    font-weight: bold;
-    font-size: 20px;
-    color: #FD6E0A;
-    padding: 18px 35px;
-    border: 2px solid #FD6E0A;
-    border-radius: 5px;
 }
 
 .banner-profile-pic {
@@ -180,6 +182,16 @@ main section{
     text-align: left;
     gap: 24px;
 }
+.skills-head{
+    font-size: 35px;
+    font-weight: bold;
+}
+.skills-para{
+    font-size: 18px;
+    width: 900px;
+    margin-bottom: 20px;
+    margin: 20px auto;
+}
 
 .skills-title{
     font-size: 18px;
@@ -189,6 +201,7 @@ main section{
 .skills-description{
     font-size: 16px;
     font-weight: normal;
+    margin-bottom: 20px;
 }
 
 .skill{
@@ -196,3 +209,64 @@ main section{
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgb(0,0,0,0.06);
 }
+
+.center-text{
+    text-align: center;
+}
+
+/* Resume */
+.resume-content{
+    display: flex;
+    gap: 12px;
+}
+
+.resume hr{
+    margin: 5px;
+}
+
+.btn-cv{
+    margin-top: 30px;
+}
+.resume-title{
+    margin-bottom: 40px;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+}
+
+
+.footer-column{
+    width: 50%;
+}
+.footer-column input[type="text"], input[type="email"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.footer textarea{
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.icons{
+    display: flex;
+    justify-items: left;
+    gap: 10px;
+}
+
+
